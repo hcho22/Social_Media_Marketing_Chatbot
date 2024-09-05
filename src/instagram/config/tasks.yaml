@@ -1,0 +1,94 @@
+market_research:
+  description: >
+    Investigate the latest trends, hashtags, and competitor activities on Instagram specific to the industry of this Instagram account. Focus on gathering data that reveals what content performs well in the current year, identifying patterns, preferences, and emerging trends. 
+
+    Current date: {current_date}
+
+    Description of the instagram account for which you are doing this research: 
+    <INSTAGRAM_ACCOUNT_DESCRIPTION>{instagram_description}</INSTAGRAM_ACCOUNT_DESCRIPTION>
+
+    Find the most relevant topics, hashtags and trends to use the the posts for next week. The focus of the following week is the following: 
+    <NEXT_WEEK_CONTENT>{topic_of_the_week}</NEXT_WEEK_CONTENT>
+
+  expected_output: >
+    A report with the most relevant information that you found, including relevant hashtags for this week's content and all other information that could be useful to the team working on content creation.
+
+content_strategy:
+  description: >
+    Based on the market research findings, develop a detailed content calendar for Instagram for the upcoming week. 
+    The calendar should include daily themes and preliminary content ideas, focusing initially on a three-day plan. 
+    Each day should feature a specific theme with relevant content ideas and include the most effective keywords and hashtags to maximize reach and engagement. 
+    The content should be aligned with the latest trends and audience preferences identified through research.
+  expected_output: >
+    A comprehensive content calendar formatted in markdown for the upcoming week (Monday to Sunday), including:
+    - Days of the Week: Clearly outlined from Monday to Sunday.
+    - Content Ideas: A brief description of content ideas for each day, focusing on a three-day plan.
+    - Keywords and Hashtags: Relevant keywords and hashtags for each post to optimize visibility and engagement.
+    - Alignment: Ensure the calendar reflects current trends and audience interests as identified in the market research.
+
+visual_content_creation:
+  description: >
+    Based on the content strategy for Instagram, create visual art for each post scheduled throughout the week. 
+    Develop a detailed description for each image, ensuring the descriptions are concise yet comprehensive. 
+    Each description should include the key elements of the image, such as colors, objects, mood, and any other pertinent details necessary for image creation. 
+    The visual content should align with the content calendar and reflect current trends and audience preferences.
+
+    Here are some examples of the descriptions that you could use:
+    - A realistic image of a living room with a modern design. The room should have a large window with a view of a cityscape. 
+    The color palette should be neutral, with a pop of color in the form of a red sofa. The room should be well-lit, with a cozy and inviting atmosphere.
+    - A minimalist image of a desk with a laptop, a notebook, and a cup of coffee. The desk should be made of light wood, and the background should be a plain white wall. 
+    The image should convey a sense of focus and productivity.
+    - A vibrant image of a tropical beach at sunset. The beach should be deserted, with palm trees swaying in the wind. 
+    The sky should be a mix of warm colors, with the sun setting on the horizon. The image should evoke a sense of relaxation and tranquility.
+
+  expected_output: >
+    A markdown document containing detailed descriptions of the images for each Instagram post scheduled for the week. The document should include:
+    - Days of the Week: Clearly outlined for each day of the week (Monday to Sunday).
+    - Image Descriptions: Detailed, concise descriptions for each image, including:
+      - Main Elements: Objects and key features that should be included.
+    - Colors: The color palette to be used in the image.
+      - Mood: The emotional or atmospheric tone the image should convey.
+      - Additional Information: Any other relevant details that are crucial for image creation.
+    - Alignment: Ensure the descriptions align with the content calendar and reflect current trends and audience interests.
+
+copywriting:
+  description: >
+    Write engaging and relevant copy for each Instagram post scheduled for the week, in alignment with the strategic themes outlined in the content calendar. 
+    The copy should captivate the audience, reflect the brand's voice, and encourage interaction. 
+    Ensure the copy is SEO-friendly by incorporating relevant keywords and hashtags. Follow these guidelines to craft effective Instagram posts:
+    - Conciseness and Engagement: Keep the copy brief yet compelling to capture attention quickly.
+    - Call to Action: Include a clear call to action where appropriate to drive engagement.
+    - Keywords and Hashtags: Integrate relevant keywords and hashtags from the content schedule to enhance discoverability.
+    - Brand Voice: Maintain consistency with the brand's voice and tone throughout the copy.
+
+    Examples of Copy:
+    - "Excited to unveil our new collection! 🎉 Explore the latest trends and find your new favorite pieces. Shop now! #NewCollection #FashionTrends #Style"
+    - "Kickstart your week with a burst of energy! 💪 Try our fresh smoothies and feel great all day. Visit us today! #HealthyLiving #Smoothies #MondayMotivation"
+    - "Need a break? 🌸 Pamper yourself with our luxurious spa services. Book your relaxation escape now! #SpaDay #SelfCare #Relaxation"
+  
+  expected_output: >
+    A markdown document with the following structure:
+    - Sections for Each Day: Clearly labeled sections for each Instagram post of the week (Monday to Sunday).
+    - Post Copy: Engaging and relevant copy for each post, including:
+      - Content: The main text of the post.
+      - Call to Action: A clear directive for audience engagement.
+      - Keywords and Hashtags: Relevant keywords and hashtags integrated into the copy.
+    - Alignment: Ensure that the copy is on-brand, aligns with the content calendar, and adheres to the guidelines provided
+
+report_final_content_strategy:
+  description: >
+    Compile a comprehensive report outlining the final content strategy for the upcoming week on Instagram. 
+    The report should integrate various components, including market research findings, the content calendar, copy for each post, and AI-generated images. 
+    Provide a concise rationale for the strategy, detailing how it aligns with identified trends and audience preferences. 
+    The goal is to present a cohesive and well-supported strategy that effectively leverages insights and creative assets.
+
+  expected_output: >
+    A detailed markdown report with the following sections:
+    - Market Research Findings: A summary of key insights from market research, including trends and audience preferences.
+    - Content Calendar: A week-long content calendar detailing the themes, posting schedule, and any additional notes.
+    - Post Copy: Engaging copy for each Instagram post, including relevant hashtags and calls to action.
+    - AI-Generated Images: Descriptions or links to the AI-generated images intended for each post.
+    - Strategy Rationale: A brief explanation of how the content strategy aligns with market research findings and audience insights, 
+    emphasizing the rationale behind the chosen themes, copy, and visual elements.
+
+    Ensure the report is clear, well-organized, and demonstrates how the content strategy will drive engagement and meet marketing objectives.
